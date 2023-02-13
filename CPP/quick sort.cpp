@@ -1,7 +1,5 @@
-#include <malloc.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <iostream>
+
 
 void swap(int *array, int a, int b) {
     int temp = array[a];
@@ -30,7 +28,7 @@ void quick_sort(int *array, int begin, int end) {
 
 int main() {
     int len = 20;
-    int *array = (int*)calloc(sizeof(int), len);
+    int *array = new int[len];
 
     // fill with random elements
     srand(time(NULL));
@@ -39,15 +37,16 @@ int main() {
 
     // print
     for (int i = 0; i < len; i++) 
-        printf("%d ", array[i]);
-    printf("\n");
+        std::cout << array[i] << " ";
 
+    std::cout << "\n";
     quick_sort(array, 0, len-1);
 
     // print
     for (int i = 0; i < len; i++) 
-        printf("%d ", array[i]);
-    printf("\n");
+        std::cout << array[i] << " ";
+
+    delete array;
 
     return 0;
 }
