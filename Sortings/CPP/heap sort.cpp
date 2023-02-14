@@ -26,7 +26,6 @@ void heapify(int *array, int len, int root) {
 }
 
 void heapSort(int *array, int len) {
-    int arr[len];
     // heapify initial array
     for (int i = len/2; i >=0; i--) 
         heapify(array, len, i);
