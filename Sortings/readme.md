@@ -11,6 +11,7 @@
  - Selection sort 
 [JS](https://github.com/Ak1yamaKiyoshi/Algorithms/blob/main/Sortings/JS/selection%20sort.js) 
 ______________ 
+### Not done yet / no link
 [Python]() [C]() [C++]()
  - Quick sort 
 [JS]() [Python]()[C]() [C++]()
