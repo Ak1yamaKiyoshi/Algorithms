@@ -10,7 +10,7 @@
 [C++](https://github.com/Ak1yamaKiyoshi/Algorithms/blob/main/Sortings/CPP/insertion%20sort.cpp)
  - Selection sort 
 [JS](https://github.com/Ak1yamaKiyoshi/Algorithms/blob/main/Sortings/JS/selection%20sort.js) 
-||||
+______________ 
 [Python]() [C]() [C++]()
  - Quick sort 
 [JS]() [Python]()[C]() [C++]()
