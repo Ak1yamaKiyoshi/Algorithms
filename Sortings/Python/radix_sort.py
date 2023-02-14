@@ -3,14 +3,14 @@ def counting_sort(array, slce):
     out = [0] * len(array)
     count = [0] * 10
 
-    for e in array:  # forming count array
+    for e in array:
         index = e // slce % 10
         count[index] += 1
 
     for i in range(1, 10):
         count[i] += count[i-1]
 
-    for i in range(len(array)-1, -1, -1):  # formin out array
+    for i in range(len(array)-1, -1, -1): 
         index = array[i] // slce % 10
         out[count[index]-1] = array[i]
         count[index] -= 1

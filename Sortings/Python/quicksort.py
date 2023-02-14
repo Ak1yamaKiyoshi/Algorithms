@@ -12,7 +12,6 @@ def partition(array, start, end):
         else:
             break
     array[end], array[low] = array[low], array[end]
-#    input()
     return low
 
 def quick_sort(array, start, end):
